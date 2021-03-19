@@ -1,0 +1,38 @@
+{
+  "-3b94b69b": {
+    "collection": "product",
+    "query": {
+      "offset": 0,
+      "limit": 3,
+      "sort": [
+        "created-on"
+      ]
+    }
+  },
+  "fbc21f0": {
+    "collection": "category",
+    "query": {
+      "sort": [
+        "name"
+      ]
+    }
+  },
+  "219e2efb": {
+    "collection": "product",
+    "query": {
+      "fields": [
+        {
+          "fieldPath": "category",
+          "operatorName": "idin",
+          "value": "DYN_CONTEXT"
+        }
+      ]
+    }
+  },
+  "2f67365c": {
+    "collection": "product"
+  },
+  "1f4a07e9": {
+    "collection": "post"
+  }
+}
